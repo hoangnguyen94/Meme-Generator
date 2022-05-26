@@ -1,0 +1,72 @@
+* {
+    background-color: antiquewhite;
+}
+h1, h2 {
+    font-family: sans-serif;
+    text-align: center;
+    color: blue;
+}
+label {
+    text-align: left;   
+    height: 20px;
+}
+
+.box {
+    float: right;
+    width: 90%;
+    height: 20px;
+}
+.textSize {
+    float: center;
+    width: 20%;
+    margin-left: 100px;
+    
+}
+form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+button {
+    width: 100%;
+    font-size: 30px;
+}
+.memeImage:hover {
+    opacity: 0.3;
+}
+
+.memeImage {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    border: 10px;
+}
+
+.memeTopText {
+    font-size: 20px;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+.memeBottomText {
+    font-size: 20px;
+    bottom: 8px;
+    left: 50px;
+    right: 50px;
+    position: absolute;
+    text-align: center;
+}
+
+.storeMeme {
+    height: auto;
+    width: 300px;
+    display: inline-block;
+}
